@@ -1,0 +1,7 @@
+# https://docs.travis-ci.com/user/languages/java/
+language: java
+sudo: false
+jdk:
+  - oraclejdk8
+script:
+  - kotlinc -script test.kts -classpath build/classes/main
