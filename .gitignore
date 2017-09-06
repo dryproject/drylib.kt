@@ -1,5 +1,9 @@
 # macOS
 .DS_Store
 
+# Gradle
+.gradle
+build
+
 # Editor backup files
 *~
