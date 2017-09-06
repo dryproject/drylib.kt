@@ -16,5 +16,9 @@ Installation
 Usage
 =====
 
+::
+
+   import dry.*
+
 Reference
 =========
