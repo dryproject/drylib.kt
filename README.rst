@@ -14,6 +14,11 @@ DRYlib for Kotlin
 
 http://drylib.org
 
+Prerequisites
+=============
+
+* Kotlin 1.1+
+
 Features
 ========
 
