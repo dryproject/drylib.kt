@@ -1,9 +1,12 @@
 # macOS
 .DS_Store
 
+# Editor backup files
+*~
+
+# rst2html outputs
+*.html
+
 # Gradle
 .gradle
 build
-
-# Editor backup files
-*~
