@@ -3,10 +3,9 @@ language: java
 sudo: false
 jdk:
   - oraclejdk8
-install:
+before_install:
   - curl -s https://get.sdkman.io | bash
   - source $HOME/.sdkman/bin/sdkman-init.sh
   - sdk install kotlin
-  - gradle assemble
 script:
   - kotlinc -script test.kts -classpath build/classes/main
